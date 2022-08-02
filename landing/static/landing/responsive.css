@@ -1,0 +1,23 @@
+/* Mobile */
+@media screen and (max-width:480px) {
+    h1{
+        font-size:2rem;
+        font-weight: 300;
+    }
+    h3 {
+        font-size:2.3rem;
+        font-weight: 400;
+    }
+}
+/* iPads & Tablets */
+@media screen and (max-width:768px) {
+
+}
+/* Small Screens & Laptops */
+@media screen and (max-width:1024px) {
+
+}
+/* Desktops & Large Screens */
+@media screen and (max-width:1200px) {
+
+}

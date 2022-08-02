@@ -1,0 +1,59 @@
+@import 'responsive.css';
+body {
+    background: #071424;
+    color:white;
+    text-align:center;
+    overflow:hidden;
+}
+.coming_soon_container:before {
+    background: #071424 url("/static/landing/data.jpg") no-repeat center;
+    background-size: cover;
+}
+.coming_soon_container:after {
+    background: #071424;
+
+}
+.coming_soon_container:before,
+.coming_soon_container:after {
+    content:"";
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    opacity: .8;
+}
+
+.coming_soon_container {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+h1, h3 {
+    text-transform: uppercase;
+}
+h3  {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width:21.5rem;
+    max-width:21.5rem;
+    margin:1rem auto;
+    padding:1rem;
+}
+.squeeze {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    z-index:3;
+}
+button {
+    padding: 8px 1rem;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    background: darkgreen;
+    color: white;
+}
+
